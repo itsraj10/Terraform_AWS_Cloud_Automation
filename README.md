@@ -33,7 +33,7 @@ ________________________________________________________________________________
 2. AWS EC2 – Virtual server provisioning
 3. AWS VPC, Subnets, IGW, Route Tables – Networking components
 4. Amazon Linux 2 – EC2 AMI
-5. User Data Script – Bootstraps instance to install and start web server
+5. User Data Script – Bootstraps the instance to install and start the web server
 6. SSH – Remote access to EC2
 ____________________________________________________________________________________________________________________________
 
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 💻 Tasks Overview:
 
 🔹 Provider & Initialization
-   * Defined AWS provider targeting ap-south-1 region.
+   * Defined AWS provider targeting the us-east-1 region.
    * Initialized Terraform workspace using terraform init.
 
 🔹 Networking
@@ -79,12 +79,12 @@ ________________________________________________________________________________
 🔹 Application Load Balancer
    * ALB:
      1. Created an internet-facing Application Load Balancer.
-     2. Attached to both subnets and associated with security group.
+     2. Attached to both subnets and associated with the security group.
    * Target Group:
      1. Configured health checks on root path /.
      2. Registered both EC2 instances as targets.
    * Listener:
-     1. Set up listener on port 80 to forward traffic to the target group.
+     1. Set up a listener on port 80 to forward traffic to the target group.
 
 🔹 Outputs
    * Displayed Load Balancer DNS as output after provisioning.
