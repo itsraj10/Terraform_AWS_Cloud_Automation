@@ -60,7 +60,7 @@ ________________________________________________________________________________
 
 🔹 Security
    * Security Group (websg):
-     1. Allowed inbound traffic on port 22 (SSH) and port 80 (HTTP) from all IPs.
+     1. Allowed inbound traffic on port 22 (SSH), port 80 (HTTP), and port 443 (HTTPS) from all IPs.
      2. Enabled outbound traffic on all ports.
 
 🔹 Compute Resources
