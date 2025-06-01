@@ -41,7 +41,7 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/b8be44b1-60c6-4c7e-83d1-1c7181c524ea)
 
-NOTE: Terraform state files are stored in an S3 backend to ensure secure, centralized storage and seamless team collaboration.
+NOTE: Terraform state files are stored in an S3 backend to ensure secure, centralized storage and team collaboration.
 ____________________________________________________________________________________________________________________________
 
 💻 Tasks Overview:
